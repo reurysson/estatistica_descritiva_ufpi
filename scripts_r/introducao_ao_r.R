@@ -1,5 +1,6 @@
 # Comandos básicos no R
 
+
 getwd() # Get Working Directory - Exibe o diretório de trabalho atual
 
 setwd() # Set (settings) Working Directory - Permite alterar o diretório de trabalho. # O caminho no novo diretório é passado como argumento. 

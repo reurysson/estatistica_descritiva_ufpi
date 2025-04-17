@@ -63,7 +63,7 @@ sort(fbef)
 tabela = table(sort(fbef))
 
 # Gráfico de barras simples
-barplot(tabela, xlab="Ângulo de flexão", ylab = "Frequência")
+barplot(tabela, xlab="Ângulo de flexão (", ylab = "Frequência")
 
 # Definindo o número de classes
 k = nclass.Sturges(fbef) - 1  # Removemos uma classe para evitar que a 2ª classes ficasse vazia. Decisão tomada após a criação da 1ª versão da tabela de distribuição.
